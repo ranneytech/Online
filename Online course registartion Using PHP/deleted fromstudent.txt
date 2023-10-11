@@ -1,0 +1,5 @@
+ <div class="form-group">
+                                    <label for="email">Email </label>
+                                    <input type="text" class="form-control" id="email" name="email" onBlur="userAvailability()" placeholder="Student Email" required />
+                                    <span id="user-availability-status1" style="font-size:12px;"></span>
+                                </div>
